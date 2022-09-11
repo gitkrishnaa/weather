@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!-- this is contaier that contain all revelent element of this project -->
+    <div id="container"> 
+<!-- tis will showthe result of wether -->
+
+<div id="wether_Display">
+    <!-- <label for="place">Enter place</label> -->
+<input id="place" type="text" value="darbhanga">
+<button id='btn1' onclick="getWeather()">submit</button>
+<!-- main display div where result will show -->
+<div id="display">
+    <!-- section1 -->
+<div id="resultDiv1" class="resultDiv">
+    <h3 id="city1">City name</h3>
+
+</div> 
+<!-- section2 -->
+
+<div class="resultDiv" id="resultDiv2">
+    <!-- <div>
+<h1>temp</h1>
+
+</div>
+<div>
+<h3 id="temprature1">30</h3>
+</div> -->
+
+<div><h2 id="tempResult">30</h2></div>
+
+<div>
+<img src="http://openweathermap.org/img/wn/10d@2x.png"  alt="" id="icon1"><!-- for icon of weather -->
+</div>
+<div><h1 id="weather1">cloud</h1></div>
+</div>
+<!-- section3 -->
+<div class="resultDiv">
+<div id="resultDiv3">
+<div><h3>wind speed</h3></div>
+<div><img src="wind.gif" alt="" width="100px" height="70px"></div>
+<div><h2 id="windSpeed" >0km/hr</h2></div>
+
+</div>
+
+
+
+</div>
+
+
+</div>
+</div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <div id="credit_footer">
+
+        <footer
+   
+   style="padding:20px;text-align: center ;"
+        >
+<h2>made by <a target="blank" href="https://github.com/gitkrishnaa">
+    Krishna thakur</a></h2>
+
+        </footer>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
